@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-pari-master.flake = false;
+  inputs.src-pari-master.ref   = "refs/heads/master";
   inputs.src-pari-master.owner = "lompik";
-  inputs.src-pari-master.ref   = "master";
   inputs.src-pari-master.repo  = "pari.nim";
   inputs.src-pari-master.type  = "github";
   
