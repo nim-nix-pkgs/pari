@@ -11,7 +11,6 @@
   inputs.src-pari-master.ref   = "refs/heads/master";
   inputs.src-pari-master.owner = "lompik";
   inputs.src-pari-master.repo  = "pari.nim";
-  inputs.src-pari-master.dir   = "";
   inputs.src-pari-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
